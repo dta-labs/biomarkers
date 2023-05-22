@@ -1,4 +1,4 @@
-***Identification of biomarkers for the diagnosis and prognosis of type 2 diabetes based-on gut microbiota and Machine Learning***
+***Identification of biomarkers for the diagnosis and prognosis of MetS-related deseases based-on gut microbiota and Machine Learning***
 
 **Description of problem to be solved**:
 The metabolic syndrome (*MetS*) is known to substantially reduce the quality of life. MetS is associated with a high incidence of non-communicable diseases such as type 2 diabetes mellitus, cardiovascular diseases, cancer, among others. Multiple investigations focus the early diagnosis of *MetS* and its possible evolution in the patient on the basis of gene expression and clinical parameters.
@@ -7,11 +7,11 @@ Beyond of traditional diagnostic methods, Machine Learning (*ML*) can learn non-
 The genes analysis belonging to the intestinal microbiota would allow the identification of excretory proteins with biomarker potential for the diagnosis and prognosis of diabetes and metabolic syndrome using supervised Machine Learning algorithms. For this reason, this project seeks to create a “pipeline” of classification algorithms (set of concatenated software) for data mining and analysis that allows predicting the appearance of type 2 diabetes and the progression of complications based on in the gut microbiota.
  
 **Proposed Schedule**:
-Milestone 1:	Access and download of public databases from Amazon S3, of experiments on the intestinal microbiota associated with patients with type 2 diabetes (1192 databases with 5 to 9 Giga Bytes each).
-Milestone 2:	Genome assembly of a multiple cell bacterial data. Doe to databases being double read (forward & reverse), the assembly can generate up to four times the size of the original databases.
-Milestone 3:	Download of the bacteria databases and comparative analysis of the sequences obtained in milestone 2 with the sequences of each bacterium (BLAST).
-Milestone 4:	Identify and segment genes with known functions and create a map that identifies them.
-Milestone 5:	Identification of excretory proteins with biomarker potential for the diagnosis and prognosis of diabetes and metabolic syndrome using Machine Learning tools.
+* Milestone 1:	Access and download of public databases from Amazon S3, of experiments on the intestinal microbiota associated with patients with type 2 diabetes (1192 databases with 5 to 9 Giga Bytes each).
+* Milestone 2:	Genome assembly of a multiple cell bacterial data. Doe to databases being double read (forward & reverse), the assembly can generate up to four times the size of the original databases.
+* Milestone 3:	Download of the bacteria databases and comparative analysis of the sequences obtained in milestone 2 with the sequences of each bacterium (BLAST).
+* Milestone 4:	Identify and segment genes with known functions and create a map that identifies them.
+* Milestone 5:	Identification of excretory proteins with biomarker potential for the diagnosis and prognosis of diabetes and metabolic syndrome using Machine Learning tools.
 
 **Plan for sharing outcomes or resources created during project
 Set of interconnected tools that would allow**:
